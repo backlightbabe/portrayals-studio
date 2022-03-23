@@ -127,29 +127,37 @@ input, textarea, button, select {
     font-family: 'Josefin Slab', serif;
 }
 input::-webkit-input-placeholder {
-    color: inherit;
+    /* color: inherit; */
+    color: #a39f9e;
 }
 input::-moz-placeholder {
-    color: inherit;
+  /* color: inherit; */
+  color: #a39f9e;
 }
 input:-moz-placeholder {
-    color: inherit;
+  /* color: inherit; */
+  color: #a39f9e;
 }
 input:-ms-input-placeholder {
-    color: inherit;
+  /* color: inherit; */
+  color: #a39f9e;
 }
 
 textarea::-webkit-input-placeholder {
-    color: inherit;
+  /* color: inherit; */
+  color: #a39f9e;
 }
 textarea::-moz-placeholder {
-    color: inherit;
+  /* color: inherit; */
+  color: #a39f9e;
 }
 textarea:-moz-placeholder {
-    color: inherit;
+  /* color: inherit; */
+  color: #a39f9e;
 }
 textarea:-ms-input-placeholder {
-    color: inherit;
+  /* color: inherit; */
+  color: #a39f9e;
 }
 *:focus {
     outline: none;
