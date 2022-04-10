@@ -6,11 +6,20 @@
 }
 
 @media screen and (max-width: 992px){
+	.portfolio-item:hover {
+		position:static;
+	  transform: scale(1);
+	}
 	}
 
 @media screen and (max-width: 768px){
 	body {
 		font-size: 14px;
+	}
+
+	.portfolio-item:hover {
+		position:static;
+	  transform: scale(1);
 	}
 
 	input.style1,
