@@ -778,7 +778,9 @@ textarea.style1 {
   font-size: 4em;
   height: 1.5em;
   padding: 0 0.5em;
-  background: #c8beb4;
+  /* background: #c8beb4; */
+  background: rgba(255, 255, 255, 0.0);
+
   color: #c8beb4;
   -webkit-animation: preloader 3s linear infinite;
   -moz-animation: preloader 3s linear infinite;
@@ -1632,8 +1634,40 @@ textarea.style1 {
   margin-bottom: 30px;
 }
 
-.pricelist-item .price {
+.pricelist-item .price1 {
   background: rgba(155, 134, 115, 0.5);
+  text-align: center;
+  border: 3px solid #e7e7e8;
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-weight: bold;
+  font-size: 3.000em;
+  font-family: 'Josefin Slab', serif;
+  line-height: 89px;
+  color: #fff;
+  padding: 0 16px;
+  z-index: 2;
+}
+
+.pricelist-item .price2 {
+  background: rgba(198, 156, 108, 0.5);
+  text-align: center;
+  border: 3px solid #e7e7e8;
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-weight: bold;
+  font-size: 3.000em;
+  font-family: 'Josefin Slab', serif;
+  line-height: 89px;
+  color: #fff;
+  padding: 0 16px;
+  z-index: 2;
+}
+
+.pricelist-item .price3 {
+  background: rgba(217, 187, 181, 0.5);
   text-align: center;
   border: 3px solid #e7e7e8;
   position: absolute;
